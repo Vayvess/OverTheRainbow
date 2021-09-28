@@ -1,0 +1,11 @@
+Y = {Value.type X}  % returns 'int'
+{Browse Y}
+
+% What's the type of the i ?
+{Browse {Value.type Y}} % returns 'atom'
+
+% What's the type of the predifined identifier "Value" ?
+{Browse {Value.type Value}} % returns 'record'
+
+% Then what's the type of the field of the feature 'type' of the record "Value"
+{Browse Record}
