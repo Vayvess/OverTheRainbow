@@ -4,7 +4,7 @@ A = p(a: 5 b: 6)
 B = p(a: 7 b: 8)
 
 /*
-    Mozart implements a default comparaison for records:
+    Mozart implements a default comparaison for records (structural equality):
     Since A & B records have the same pattern: same label && same features
     then the comparaison between A & B with the binary operator '==' won't be false by default.
     But since a field value for a same feature is different then the comparaison will result as 'false'
