@@ -1,9 +1,10 @@
 /*
     Let's extend the "Descriptive declarative programming paradigm" (DDPP)
     with the "procedure" semantic concept whenever a context-free language embodies
-    at least these two semantic concept (record, procedure) it is said turing complete.
+    at least these two semantic concept (record, procedure) it is said turing complete
+    and belongds to the "First-order functional programming paradigm" (FOFPP).
 
-    let's discover the "procedure" semantic concept trough Oz
+    Let's discover the "procedure" semantic concept trough Oz !
 */
 declare
 
